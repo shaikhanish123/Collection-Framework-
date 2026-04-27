@@ -1,0 +1,47 @@
+# 🔹 Start / Clone
+git init
+git clone <url>
+
+# 🔹 Check & Add
+git status
+git add .
+git add <file>
+
+# 🔹 Commit
+git commit -m "message"
+git commit -am "message"
+
+# 🔹 Connect to GitHub
+git remote add origin <url>
+git remote -v
+git remote remove origin
+
+# 🔹 Push / Pull
+git push
+git push -u origin main
+git pull
+git fetch
+
+# 🔹 Branch
+git branch
+git branch <name>
+git checkout <name>
+git checkout -b <name>
+git merge <branch>
+
+# 🔹 History
+git log
+git log --oneline
+
+# 🔹 Fix / Undo
+git restore <file>
+git reset --hard HEAD
+git stash
+git stash pop
+
+Super Short (Daily Use Only)
+git status
+git add .
+git commit -m "message"
+git push
+git pull
