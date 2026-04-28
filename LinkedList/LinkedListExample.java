@@ -23,9 +23,9 @@ public class LinkedListExample {
       // remove index method
        //lst.remove(2);
        // clear method
-       System.out.println("before clear method");
-       lst.clear();
-       System.out.println("after  clear method"+lst);
+    //    System.out.println("before clear method");
+    //    lst.clear();
+    //    System.out.println("after  clear method"+lst);
 
        Iterator<String>itr  =lst.iterator();
        while(itr.hasNext()){
