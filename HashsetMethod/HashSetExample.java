@@ -7,12 +7,14 @@ public class HashSetExample {
        hs.add("akash");
        hs.add("kaveri");
        hs.add("akash");
-         System.out.println("before clone the hashet:"+hs);
+        // System.out.println("before clone the hashet:"+hs);
         // hs.clear();
         //clone() method
         // HashSet<String> hs1=(HashSet<String>)hs.clone();
         // System.out.println("after clone:"+hs1);
-        System.out.println(hs.contains("kaveri"));
+        //System.out.println(hs.contains("kaveri"));
+       // System.out.println("before the clear method:"+hs.size());
+
 
         // System.out.println("after clear:"+hs);
 
