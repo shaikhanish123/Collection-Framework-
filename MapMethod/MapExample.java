@@ -24,7 +24,7 @@ public static void main(String[] args) {
 // }
 
  for(Map.Entry m:map.entrySet()){  
-   System.out.println(m.getKey()+" "+m.getValue());  
+   System.out.println(m.getKey()+"  "+m.getValue());  
   }  
  }
 
