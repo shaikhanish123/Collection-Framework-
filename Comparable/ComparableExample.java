@@ -9,7 +9,7 @@ public class ComparableExample{
          ArrayList<Emp>emplist=new ArrayList<>();
          emplist.add(new Emp(1,"john","usa"));
          emplist.add(new Emp(3,"johan","atif"));
-emplist.add(new Emp(2,"anish","us"));    
+         emplist.add(new Emp(2,"anish","us"));    
 
 System.out.println("before sorting the object"+emplist);
 Collections.sort(emplist);
